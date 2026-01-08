@@ -23,6 +23,9 @@ along with **step-by-step documentation** and an installable **RPM package**.
 ### 🔹 Pre-requisites
 - [Pre-requisites for Source Database](docs/prerequisite.md)
 
+### Installation
+- [Setting Up Local Repository for Helyx Installation](docs/setup-local-repo.md)
+
 <!-- ### 🔹 Installation & Setup
 - [Installation Guide](docs/installation-guide.md)
 - [Step 1 – Services Setup](docs/replication-setup/step-1-services-setup.md)
