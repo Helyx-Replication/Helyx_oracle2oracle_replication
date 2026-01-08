@@ -25,6 +25,14 @@ along with **step-by-step documentation** and an installable **RPM package**.
 
 ### Installation
 - [Setting Up Local Repository for Helyx Installation](docs/setup-local-repo.md)
+- [Directory Structure After Installation](docs/directory-structure.md)
+
+### Set Up
+- [Setting Up Source Publications](docs/setup-source-publication.md)
+- [Setting Up Destination Subscription](docs/setup-destination-subscription.md)
+
+### Security
+- [Security & Privilege Justification](docs/security.md)
 
 <!-- ### 🔹 Installation & Setup
 - [Installation Guide](docs/installation-guide.md)
