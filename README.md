@@ -1,3 +1,4 @@
+
 # Helyx Oracle to Oracle Replication
 
 This repository contains the **Helyx Oracle to Oracle replication tool**
@@ -5,53 +6,76 @@ along with **step-by-step documentation** and an installable **RPM package**.
 
 ---
 
-## 📦 Package Information
+# Getting Started
 
-- **RPM**: `helyx-1.1.0-1.el8.x86_64.rpm`
-- **Platform**: RHEL / CentOS / Rocky Linux (EL8)
-- **Architecture**: x86_64
-- **Distribution**: GitHub (Git LFS)
+## Introduction
+
+Helyx is a lightweight, high-performance replication solution designed for real-time **heterogeneous database replication**. It provides a simple **CLI-driven** experience and abstracts the complexity of setting up replication pipelines.
+
+## Key highlights of Helyx
+
+### Heterogeneous Replication
+
+Supports replication across **multiple database systems** (e.g., **PostgreSQL ↔ PostgreSQL**, **Oracle ↔ Oracle**, **Oracle → PostgreSQL**, **Oracle → MySQL**, **Oracle → MongoDB**, **Oracle → Snowflake**).
+
+
+### High Throughput
+
+Capable of handling hundreds of thousands of transactions per second across distributed data centers.
+
+
+### Schema Evolution Handling
+
+Automatically adapts to **schema changes** like __column additions__ and keeps __source and target databases in sync__.
+
+
+### Zero-Downtime Replication
+
+Supports **ad-hoc snapshots** and **live streaming** without interrupting production workloads.
+
+
+### Monitoring & Control
+
+Built-in __CLI commands__ allow users to check replication **lag**, **list connectors**, **view tasks**, and monitor end-to-end replication health.
+
+
+### Deployment Friendly
+
+Delivered as containerized application making installation and upgrades straightforward.
+
+
+### Version-Aware Replication 
+
+Helyx supports replication between different versions of the same technology stack (e.g., **PostgreSQL 11 → PostgreSQL 15** or **EDB 12 → EDB 14** or **Oracle11g → Oracle19c**). This ensures smooth migrations and upgrades without downtime.
+
+With Helyx, enterprises can achieve **enterprise-grade** replication with lower operational overhead, faster setup, and proven reliability compared to traditional tools.
+
+# Deployment Architecture
+
+Helyx is deployed as a **containerized distributed** replication platform running on Docker. The architecture consists of a **helyx-Sync-Manager** for durable event streaming, a **Helyx-Schema-Registry-manager** for schema management, **Helyx-broker-manager** for managing services and a **Helyx-Connect-service-manager** as a replication service.
+
+The Oracle source database operates in **ARCHIVELOG** mode with supplemental logging, enabling real-time change data captutr **[CDC]**. Captured changes flow through topics and are applied to the Oracle target database with automatic schema evolution and fault-tolerant, zero-downtime streaming.
+
+<div style="text-align: center;"> <img src="images\image.png" alt="Centered image"> </div>
 
 ---
 
-## 📘 Documentation
+# 🔹 Pre-requisites
 
-### 🔹 Overview
-- [Product Overview](docs/overview.md)
-<!-- - [Replication Overview](docs/replication-setup/replication-overview.md) -->
-
-### 🔹 Pre-requisites
 - [Pre-requisites for Source Database](docs/prerequisite.md)
 
-### Installation
-- [Setting Up Local Repository for Helyx Installation](docs/setup-local-repo.md)
-- [Directory Structure After Installation](docs/directory-structure.md)
 
-### Set Up
-- [Setting Up Source Publications](docs/setup-source-publication.md)
-- [Setting Up Destination Subscription](docs/setup-destination-subscription.md)
+# Docker Environment Setup
 
-### Security
+- [Docker Environment Setup](docs/docker-env-setup.md)
+
+
+# Set Up
+
+- [Setting Up Destination Subscription](docs/setup-destination-database.md)
+
+
+# Security
+
 - [Security & Privilege Justification](docs/security.md)
 
-<!-- ### 🔹 Installation & Setup
-- [Installation Guide](docs/installation-guide.md)
-- [Step 1 – Services Setup](docs/replication-setup/step-1-services-setup.md)
-- [Step 2 – Source Database Configuration](docs/replication-setup/step-2-source-database-configuration.md)
-- [Step 3 – Destination Database Configuration](docs/replication-setup/step-3-destination-database-configuration.md)
-
-### 🔹 Replication Management
-- [Step 4 – Replication Management CLI](docs/replication-setup/step-4-replication-management-cli.md)
-- [Step 5 – Destination DB Manual Grants](docs/replication-setup/step-5-destination-database-manual-grants.md)
-- [Step 6 – Start & Monitor Replication](docs/replication-setup/step-6-start-and-monitor-replication.md)
-
-### 🔹 Advanced Topics
-- [Schema Evolution](docs/schema-evolution.md)
-- [Command Reference](docs/command-reference.md)
-
----
-
-## 🚀 Installation (Quick Start)
-
-```bash
-sudo rpm -ivh helyx-1.1.0-1.el8.x86_64.rpm -->
