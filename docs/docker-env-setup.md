@@ -8,7 +8,7 @@ This package contains five executable files :
 + serverconfig
 + MetaSync
 + tabletorepl
-+ helyx-license.
++ helyx-license
 
 Additionally, it includes essential configuration files such as :
 
