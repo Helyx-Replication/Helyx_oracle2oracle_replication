@@ -1,4 +1,4 @@
-# Setting Up Docker env for Helyx Replication
+# SetUp Docker env for Helyx Replication
 
 To facilitate the setup and execution of replication between Oracle databases, users are required to download a **zip** file.
 
@@ -149,7 +149,7 @@ Copy the Activation key and keep it in a secure location. You will need this for
 
 ### 4. Access the License Portal
 
-Go to - [Helyx replication official website](www.helyx.quobotic.com) and log in using your registered email and password.
+Go to - [Helyx replication official website](https://helyx.quobotic.com/) and log in using your registered email and password.
 
 ### 5. Generate the License File
 
@@ -262,3 +262,13 @@ Start the connect service manager with the command :
 ```ruby
 ./configservice -help
 ```
+
+---
+
+### ⬅️ Previous Page
+
+[SetUp Destination database](docs/setup-destination-database.md)  
+
+### Next Page ➡️
+
+[Configure Publication Service](docs/publication.md)

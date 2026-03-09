@@ -36,3 +36,10 @@ To create an __adhoc snapshot__ run the following command :
 
 >[!Note]
 > When specifying multiple table names in a comma-separated list, ensure that there are no spaces between the table names and commas.
+
+
+---
+
+### ⬅️ Previous Page
+
+[Configure Subscription Service](docs/subscription.md)

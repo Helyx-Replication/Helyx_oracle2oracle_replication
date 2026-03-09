@@ -60,22 +60,23 @@ The Oracle source database operates in **ARCHIVELOG** mode with supplemental log
 
 ---
 
-# 🔹 Pre-requisites
+# 🔹 Database Setup
 
-- [Pre-requisites for Source Database](docs/prerequisite.md)
+- [Setup Source Database](docs/setup-source-database.md)
+
+- [Setup Destination Database](docs/setup-destination-database.md)
 
 
-# Docker Environment Setup
+# 🔹 Docker Environment Setup
 
 - [Docker Environment Setup](docs/docker-env-setup.md)
 
+# 🔹 Configure Database Replication
 
-# Set Up
+- [Configure Publication Service](docs/publication.md)
 
-- [Setting Up Destination Subscription](docs/setup-destination-database.md)
+- [Configure Subscription Service](docs/subscription.md)
 
+# 🔹 Add New Table To Replication
 
-# Security
-
-- [Security & Privilege Justification](docs/security.md)
-
+- [Add New Table To Replication](docs/add-new-table.md)
