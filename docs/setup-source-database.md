@@ -84,4 +84,4 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON HELYX.DEBEZIUM_SIGNAL TO helyx;
 
 ### Next Page ➡️
 
-[SetUp Destination database](docs/setup-destination-database.md)
+[SetUp Destination database](/docs/setup-destination-database.md)

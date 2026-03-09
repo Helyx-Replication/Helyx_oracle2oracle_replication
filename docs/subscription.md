@@ -36,8 +36,8 @@ Edit __/var/lib/helyx/replconfig/subscription.config__ with destination database
 
 ### ⬅️ Previous Page
 
-[Configure Publication Service](docs/publication.md)  
+[Configure Publication Service](/docs/publication.md)  
 
 ### Next Page ➡️
 
-[Add New Table To Replication](docs/add-new-table.md)
+[Add New Table To Replication](/docs/add-new-table.md)

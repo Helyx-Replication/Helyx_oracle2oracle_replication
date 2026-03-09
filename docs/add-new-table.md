@@ -42,4 +42,4 @@ To create an __adhoc snapshot__ run the following command :
 
 ### ⬅️ Previous Page
 
-[Configure Subscription Service](docs/subscription.md)
+[Configure Subscription Service](/docs/subscription.md)

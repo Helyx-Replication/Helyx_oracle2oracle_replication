@@ -78,8 +78,8 @@ GRANT CREATE ANY TRIGGER TO HELYX;
 
 ### ⬅️ Previous Page
 
-[Setup Source Database](setup-source-database.md)  
+[Setup Source Database](/docs/setup-source-database.md)  
 
 ### Next Page ➡️
 
-[SetUp Docker env for Helyx Replication](docker-env-setup.md)
+[SetUp Docker env for Helyx Replication](/docs/docker-env-setup.md)

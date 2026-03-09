@@ -103,8 +103,8 @@ Proper configuration and execution of these executables are fundamental to estab
 
 ### ⬅️ Previous Page
 
-[SetUp Docker env for Helyx Replication](docker-env-setup.md)  
+[SetUp Docker env for Helyx Replication](/docs/docker-env-setup.md)  
 
 ### Next Page ➡️
 
-[Configure Subscription Service](docs/subscription.md)
+[Configure Subscription Service](/docs/subscription.md)

@@ -267,8 +267,8 @@ Start the connect service manager with the command :
 
 ### ⬅️ Previous Page
 
-[SetUp Destination database](docs/setup-destination-database.md)  
+[SetUp Destination database](/docs/setup-destination-database.md)  
 
 ### Next Page ➡️
 
-[Configure Publication Service](docs/publication.md)
+[Configure Publication Service](/docs/publication.md)
