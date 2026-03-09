@@ -71,6 +71,17 @@ The Oracle source database operates in **ARCHIVELOG** mode with supplemental log
 
 - [Docker Environment Setup](docs/docker-env-setup.md)
 
+
+# 🔹 Generate Helyx License Certificate
+
+- [Generate and Install Helyx License Certificate](docs/generate-license.md)
+
+
+# 🔹 SetUp Helyx Replication services
+
+- [SetUp Helyx Replication services](docs/setup-helyx-replication.md)
+
+
 # 🔹 Configure Database Replication
 
 - [Configure Publication Service](docs/publication.md)
