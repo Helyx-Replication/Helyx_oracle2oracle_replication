@@ -57,3 +57,13 @@ You can check your license validity using the command below:
 ```ruby
 ./helyx-license --check-license-validity
 ```
+
+---
+
+### ⬅️ Previous Page
+
+[Docker Environment Setup](docs/docker-env-setup.md)  
+
+### Next Page ➡️
+
+[SetUp Helyx Replication services](docs/setup-helyx-replication.md)

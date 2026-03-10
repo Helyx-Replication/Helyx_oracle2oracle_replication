@@ -75,3 +75,13 @@ Start the connect service manager with the command :
 ```ruby
 ./configservice -help
 ```
+
+---
+
+### ⬅️ Previous Page
+
+[Generate and Install Helyx License Certificate](docs/generate-license.md)  
+
+### Next Page ➡️
+
+[Configure Publication Service](docs/publication.md)
