@@ -80,8 +80,8 @@ Start the connect service manager with the command :
 
 ### ⬅️ Previous Page
 
-[Generate and Install Helyx License Certificate](docs/generate-license.md)  
+[Generate and Install Helyx License Certificate](/docs/generate-license.md)  
 
 ### Next Page ➡️
 
-[Configure Publication Service](docs/publication.md)
+[Configure Publication Service](/docs/publication.md)

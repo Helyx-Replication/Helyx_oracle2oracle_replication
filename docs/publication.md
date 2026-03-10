@@ -103,7 +103,7 @@ Proper configuration and execution of these executables are fundamental to estab
 
 ### ⬅️ Previous Page
 
-[SetUp Helyx Replication services](docs/setup-helyx-replication.md)  
+[SetUp Helyx Replication services](/docs/setup-helyx-replication.md)  
 
 ### Next Page ➡️
 

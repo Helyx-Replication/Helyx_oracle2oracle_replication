@@ -62,8 +62,8 @@ You can check your license validity using the command below:
 
 ### ⬅️ Previous Page
 
-[Docker Environment Setup](docs/docker-env-setup.md)  
+[Docker Environment Setup](/docs/docker-env-setup.md)  
 
 ### Next Page ➡️
 
-[SetUp Helyx Replication services](docs/setup-helyx-replication.md)
+[SetUp Helyx Replication services](/docs/setup-helyx-replication.md)

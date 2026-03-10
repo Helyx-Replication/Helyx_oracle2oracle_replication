@@ -133,4 +133,4 @@ These steps ensure that Docker is properly installed and operational on your Lin
 
 ### Next Page ➡️
 
-[Generate and Install Helyx License Certificate](docs/generate-license.md)
+[Generate and Install Helyx License Certificate](/docs/generate-license.md)
