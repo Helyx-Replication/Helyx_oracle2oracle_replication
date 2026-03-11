@@ -2,7 +2,15 @@
 # Helyx Oracle to Oracle Replication
 
 This repository contains the **Helyx Oracle to Oracle replication tool**
-along with **step-by-step documentation** and an installable **RPM package**.
+along with **step-by-step documentation**.
+
+---
+
+## Download Helyx
+
+Download the latest release :
+
+👉 [Click To Download](https://github.com/Helyx-Replication/Helyx_oracle2oracle_replication/releases)
 
 ---
 
