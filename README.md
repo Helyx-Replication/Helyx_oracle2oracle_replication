@@ -10,7 +10,7 @@ along with **step-by-step documentation**.
 
 Download the latest release :
 
-👉 [Click To Download](https://github.com/Helyx-Replication/Helyx_oracle2oracle_replication/releases)
+👉 [Download Helyx v1.0.0](https://github.com/Helyx-Replication/Helyx_oracle2oracle_replication/releases/download/v1.0.0/helyx-oracle-files.zip)
 
 ---
 
