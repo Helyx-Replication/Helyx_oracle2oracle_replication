@@ -13,8 +13,7 @@ Edit __/var/lib/helyx/replconfig/publication.config__ and set all required param
 |database.port|	Port number used to connect to the source database.	|Required for establishing database connectivity.|	1521|
 |database.password	|Password of the database replication user[helyx].|	Used for authentication with the source database.	|********|
 |database.dbname|	Name of the source database instance.	|Specifies which database the connector should capture changes from.	|ORCLCDB|
-|log.mining.archive.destination|
-Archive log destination used for Oracle LogMiner.	|Allows the connector to read archived redo logs for change capture.|	LOG_ARCHIVE_DEST_1|
+|log.mining.archive.destination|Archive log destination used for Oracle LogMiner.	|Allows the connector to read archived redo logs for change capture.|	LOG_ARCHIVE_DEST_1|
 |schema.history.internal.kafka.topic|	Helyx topic used to store schema history.|	Maintains database schema changes for proper event processing.|	schema-changes-oracle|
 |schema.history.internal.kafka.recovery.poll.interval.ms|	Polling interval for recovering schema history.	|Helps the connector retrieve schema history during restart or recovery.	|500|
 |poll.interval.ms|	Time interval for polling database changes.|	Determines how frequently the connector checks for new change events.|	50|

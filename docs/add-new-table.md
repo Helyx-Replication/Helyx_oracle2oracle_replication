@@ -13,7 +13,7 @@ Below process user required to be follow to add a new table at source :
 ./ serverconfig  -addtabletopub -s <path_to_publication.config> -sub <path_to_subscription.config> -tables <comma_separated_table_list>
 ```
  
-<div style="text-align: center;"> <img src="../images\image3.png" alt="addtabletopub command image"> </div>
+<!-- <div style="text-align: center;"> <img src="../images\image3.png" alt="addtabletopub command image"> </div> -->
 
 That’s all. The table will be added to the replication process.
 

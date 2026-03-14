@@ -1,6 +1,6 @@
 # Configure subscription.config
 
-Edit __/var/lib/helyx/replconfig/subscription.config__ with destination database details and replication parameters.
+Edit __/var/lib/helyx/config/subscription.config__ with destination database details and replication parameters.
 
 
 |Parameter	|Description|	Purpose|	Example|

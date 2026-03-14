@@ -10,7 +10,7 @@ Execute the following command to start the sync manager :
 ./configservice -start helyx-sync-manager -datapath <phycal path for helyx-sync-manager>
 ```
 
-The datapath specifies the directory location on your virtual machine (VM) or physical server. 
+The __datapath__ specifies the directory location on your virtual machine (VM) or physical server. 
 
 Ensure this directory is created prior to running the above command :
 
@@ -21,7 +21,7 @@ mkdir -p <your datapath location>
 > [!NOTE]
 > Keep at least 20GB of storage at the datapath 
 
-Create config directory named config at **/var/lib/helyx** location. This path is related to configpath parameter.
+Create directory named __config__ at **/var/lib/helyx** location. This path is related to configpath parameter.
 
 Place all required properties and configuration files :
 

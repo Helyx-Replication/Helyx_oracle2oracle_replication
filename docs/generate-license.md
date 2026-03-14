@@ -17,6 +17,10 @@ After downloading the Helyx zip file, extract its contents. The certificate util
 
 Execute the certificate utility. Upon running, it will display your Activation Key.
 
+```ruby
+./helyx-license --generate-key
+```
+
 ### 3. Save Your Activation Key
 
 Copy the Activation key and keep it in a secure location. You will need this for license generation.
@@ -28,6 +32,9 @@ Go to - [Helyx replication official website](https://helyx.quobotic.com/) and lo
 ### 5. Generate the License File
 
 1.	Enter the Activation Key obtained from step 2.
+
+<div style="text-align: center;"> <img src="/images/license.png" alt="license image"> </div>
+
 2.	Select the product type as prompted.
 3.	Choose the appropriate license option timeline.
 4.	Click to generate the license file.
